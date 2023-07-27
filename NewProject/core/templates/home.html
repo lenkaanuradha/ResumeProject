@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5  ">
+    <div class="text-center">
+    <img src="{% static 'images/image.jpg' %}" alt="" class="img-thumbnail" width="250px" height="150px">
+</div>
+<div class="mt-5 text-center text-white mx-5 text-justify">
+<h1 class="font-weight-bold mt-5 st-font">Hello,</h1>
+<div class="px-4" style="line-height: 2rem;">
+<p style="text-indent: 100px; ">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel <b class="text-warning">Anuradha Lenka</b> dolorum possimus ullam? Qui aut ipsum pariatur recusandae repudiandae facere sapiente, officia, tenetur tempore veritatis quibusdam vero alias nostrum temporibus, repellat velit. Porro, nulla iure!
+    <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio aliquam neque, ducimus possimus eligendi voluptates repellendus aspernatur dolorum nemo quae. Culpa reprehenderit commodi iste. Quas sunt ipsum optio porro maxime ad inventore vel ea.
+</p>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officia odit pariatur fuga corporis esse. Voluptate ipsum dolores quidem nobis minima modi vitae nemo, eum hic explicabo, possimus maxime aliquam magni aspernatur eius voluptas!
+</p>
+    
+</div>
+</p>
+</div>
+<div class="text-center">
+<a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+<a href="{% url 'contact' %}" class="btn btn-outline-info my-3 mx-3">Contact</a>
+</div>
+</div>
+{% endblock content %}
